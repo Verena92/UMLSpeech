@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_cp6zQAYSEeaomtKEjp37Nw" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_cp8ocAYSEeaomtKEjp37Nw" name="Dokumentenvorschläge aufgrund des Gesprochenen erhalten   " group="_jiKgoAYWEeaomtKEjp37Nw _lXd1YAYWEeaomtKEjp37Nw _oxDAUAYWEeaomtKEjp37Nw" node="_pw6XUAYVEeaomtKEjp37Nw _wfvm0AYVEeaomtKEjp37Nw _yxg1IAYVEeaomtKEjp37Nw _1c5dUAYVEeaomtKEjp37Nw _2lh5UAYVEeaomtKEjp37Nw _5oIHoAYVEeaomtKEjp37Nw _A8RDoAYWEeaomtKEjp37Nw _H1KOEAYWEeaomtKEjp37Nw _OZMi0AYWEeaomtKEjp37Nw _VBXwsAYWEeaomtKEjp37Nw _ZP94EAYWEeaomtKEjp37Nw">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_yC0YkAYUEeaomtKEjp37Nw">
+      <body>Dokumentenvorschläge aufgrund des Gesprochenen erhalten</body>
+    </ownedComment>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_B_EkcAYWEeaomtKEjp37Nw" name="" source="_1c5dUAYVEeaomtKEjp37Nw" target="_A8RDoAYWEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CziHQAYWEeaomtKEjp37Nw" name="[Dokumente vorhanden]" source="_A8RDoAYWEeaomtKEjp37Nw" target="_2lh5UAYVEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_I0lDsAYWEeaomtKEjp37Nw" name="[keine Dokumente vorhanden]" source="_A8RDoAYWEeaomtKEjp37Nw" target="_H1KOEAYWEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NDhJUAYWEeaomtKEjp37Nw" name="" source="_2lh5UAYVEeaomtKEjp37Nw" target="_5oIHoAYVEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_aSByAAYWEeaomtKEjp37Nw" name="" source="_VBXwsAYWEeaomtKEjp37Nw" target="_ZP94EAYWEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bJ7DUAYWEeaomtKEjp37Nw" name="" source="_pw6XUAYVEeaomtKEjp37Nw" target="_wfvm0AYVEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bxVooAYWEeaomtKEjp37Nw" name="" source="_wfvm0AYVEeaomtKEjp37Nw" target="_yxg1IAYVEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cWK0AAYWEeaomtKEjp37Nw" name="" source="_yxg1IAYVEeaomtKEjp37Nw" target="_1c5dUAYVEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dgHeoAYWEeaomtKEjp37Nw" name="" source="_5oIHoAYVEeaomtKEjp37Nw" target="_OZMi0AYWEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eJcvgAYWEeaomtKEjp37Nw" name="" source="_OZMi0AYWEeaomtKEjp37Nw" target="_VBXwsAYWEeaomtKEjp37Nw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_jiKgoAYWEeaomtKEjp37Nw" name="Mitarbeiter" node="_VBXwsAYWEeaomtKEjp37Nw _ZP94EAYWEeaomtKEjp37Nw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_lXd1YAYWEeaomtKEjp37Nw" name="Hangouts Plugin   " node="_OZMi0AYWEeaomtKEjp37Nw _yxg1IAYVEeaomtKEjp37Nw _5oIHoAYVEeaomtKEjp37Nw _pw6XUAYVEeaomtKEjp37Nw _wfvm0AYVEeaomtKEjp37Nw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_oxDAUAYWEeaomtKEjp37Nw" name="Event Processor" node="_2lh5UAYVEeaomtKEjp37Nw _1c5dUAYVEeaomtKEjp37Nw _H1KOEAYWEeaomtKEjp37Nw _A8RDoAYWEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_pw6XUAYVEeaomtKEjp37Nw" name="InitialNode" inPartition="_lXd1YAYWEeaomtKEjp37Nw" outgoing="_bJ7DUAYWEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_wfvm0AYVEeaomtKEjp37Nw" name="Tokens bereitstellen" inPartition="_lXd1YAYWEeaomtKEjp37Nw" outgoing="_bxVooAYWEeaomtKEjp37Nw" incoming="_bJ7DUAYWEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_yxg1IAYVEeaomtKEjp37Nw" name="Tokens versenden" inPartition="_lXd1YAYWEeaomtKEjp37Nw" outgoing="_cWK0AAYWEeaomtKEjp37Nw" incoming="_bxVooAYWEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1c5dUAYVEeaomtKEjp37Nw" name="Tokens erhalten" inPartition="_oxDAUAYWEeaomtKEjp37Nw" outgoing="_B_EkcAYWEeaomtKEjp37Nw" incoming="_cWK0AAYWEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2lh5UAYVEeaomtKEjp37Nw" name="DokumentenURL zurücksenden" inPartition="_oxDAUAYWEeaomtKEjp37Nw" outgoing="_NDhJUAYWEeaomtKEjp37Nw" incoming="_CziHQAYWEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5oIHoAYVEeaomtKEjp37Nw" name="DokumentenURL erhalten  " inPartition="_lXd1YAYWEeaomtKEjp37Nw" outgoing="_dgHeoAYWEeaomtKEjp37Nw" incoming="_NDhJUAYWEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_A8RDoAYWEeaomtKEjp37Nw" name="DecisionNode" inPartition="_oxDAUAYWEeaomtKEjp37Nw" outgoing="_CziHQAYWEeaomtKEjp37Nw _I0lDsAYWEeaomtKEjp37Nw" incoming="_B_EkcAYWEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_H1KOEAYWEeaomtKEjp37Nw" name="ActivityFinalNode" inPartition="_oxDAUAYWEeaomtKEjp37Nw" incoming="_I0lDsAYWEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_OZMi0AYWEeaomtKEjp37Nw" name="Dokumente in Ergebnisliste anzeigen" inPartition="_lXd1YAYWEeaomtKEjp37Nw" outgoing="_eJcvgAYWEeaomtKEjp37Nw" incoming="_dgHeoAYWEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_VBXwsAYWEeaomtKEjp37Nw" name="Dokumentenvorschläge aufgrund des Gesprochenen erhalten" inPartition="_jiKgoAYWEeaomtKEjp37Nw" outgoing="_aSByAAYWEeaomtKEjp37Nw" incoming="_eJcvgAYWEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_ZP94EAYWEeaomtKEjp37Nw" name="ActivityFinalNode1" inPartition="_jiKgoAYWEeaomtKEjp37Nw" incoming="_aSByAAYWEeaomtKEjp37Nw"/>
+  </packagedElement>
+</uml:Model>

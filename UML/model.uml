@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Od434AIsEeaUxsU5qkIFfA" name="model">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_SwFF0AIsEeaUxsU5qkIFfA" name="Mitarbeiter"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nbY3QAIsEeaUxsU5qkIFfA" name="Hangouts Plugin Speech Tokenizer">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_2JkioAYAEeaomtKEjp37Nw">
+      <body>Hangouts Plugin Speech Tokenizer</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_3jGhYAYAEeaomtKEjp37Nw">
+      <body>Hangouts Plugin Speech Tokenizer</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XSvbkAYEEeaomtKEjp37Nw" name="Dokumentenvorschläge aufgrund des Gesprochenen erhalten">
+      <include xmi:type="uml:Include" xmi:id="_j70b8AYEEeaomtKEjp37Nw" addition="_guN3gAYEEeaomtKEjp37Nw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aWijwAYEEeaomtKEjp37Nw" name="Dokumente verarbeiten  "/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_cLujwAYEEeaomtKEjp37Nw" name="Mit Dokumenten in der Ergebnisliste interagieren">
+      <include xmi:type="uml:Include" xmi:id="_pXYswAYEEeaomtKEjp37Nw" addition="_nIbh4AYEEeaomtKEjp37Nw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_guN3gAYEEeaomtKEjp37Nw" name="Tokens bereitstellen"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nIbh4AYEEeaomtKEjp37Nw" name="Ergebnisliste mit Dokumentenvorschlägen bereitstellen"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_wHg8wAYEEeaomtKEjp37Nw" name="" memberEnd="_wHg8wQYEEeaomtKEjp37Nw _wHg8xAYEEeaomtKEjp37Nw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wHg8wQYEEeaomtKEjp37Nw" name="dokumentenvorschläge aufgrund des gesprochenen erhalten" type="_XSvbkAYEEeaomtKEjp37Nw" association="_wHg8wAYEEeaomtKEjp37Nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wHg8wgYEEeaomtKEjp37Nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wHg8wwYEEeaomtKEjp37Nw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wHg8xAYEEeaomtKEjp37Nw" name="mitarbeiter" type="_SwFF0AIsEeaUxsU5qkIFfA" association="_wHg8wAYEEeaomtKEjp37Nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wHg8xQYEEeaomtKEjp37Nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wHg8xgYEEeaomtKEjp37Nw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_w_jYAAYEEeaomtKEjp37Nw" name="" memberEnd="_w_jYAQYEEeaomtKEjp37Nw _w_jYBAYEEeaomtKEjp37Nw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_w_jYAQYEEeaomtKEjp37Nw" name="dokumente nutzen" type="_aWijwAYEEeaomtKEjp37Nw" association="_w_jYAAYEEeaomtKEjp37Nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w_jYAgYEEeaomtKEjp37Nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w_jYAwYEEeaomtKEjp37Nw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_w_jYBAYEEeaomtKEjp37Nw" name="mitarbeiter" type="_SwFF0AIsEeaUxsU5qkIFfA" association="_w_jYAAYEEeaomtKEjp37Nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w_jYBQYEEeaomtKEjp37Nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w_jYBgYEEeaomtKEjp37Nw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xp5VgAYEEeaomtKEjp37Nw" name="" memberEnd="_xp5VgQYEEeaomtKEjp37Nw _xp5VhAYEEeaomtKEjp37Nw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xp5VgQYEEeaomtKEjp37Nw" name="mit dokumenten in der ergebnisliste interagieren" type="_cLujwAYEEeaomtKEjp37Nw" association="_xp5VgAYEEeaomtKEjp37Nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xp5VggYEEeaomtKEjp37Nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xp5VgwYEEeaomtKEjp37Nw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xp5VhAYEEeaomtKEjp37Nw" name="mitarbeiter" type="_SwFF0AIsEeaUxsU5qkIFfA" association="_xp5VgAYEEeaomtKEjp37Nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xp5VhQYEEeaomtKEjp37Nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xp5VhgYEEeaomtKEjp37Nw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Bo6W8AYFEeaomtKEjp37Nw" name="Text an Hangouts Plugin zurückgeben"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_H08bYAYFEeaomtKEjp37Nw" name="" memberEnd="_H08bYQYFEeaomtKEjp37Nw _H08bZAYFEeaomtKEjp37Nw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_H08bYQYFEeaomtKEjp37Nw" name="text an hangouts plugin zurückgeben" type="_Bo6W8AYFEeaomtKEjp37Nw" association="_H08bYAYFEeaomtKEjp37Nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H08bYgYFEeaomtKEjp37Nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H08bYwYFEeaomtKEjp37Nw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_H08bZAYFEeaomtKEjp37Nw" name="googlewebspeechapi" type="_6o-wYAYEEeaomtKEjp37Nw" association="_H08bYAYFEeaomtKEjp37Nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H08bZQYFEeaomtKEjp37Nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H08bZgYFEeaomtKEjp37Nw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LvovUAYFEeaomtKEjp37Nw" name="Relevante Informationen zu Keyword zurückgeben"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_QQWhcAYFEeaomtKEjp37Nw" name="" memberEnd="_QQWhcQYFEeaomtKEjp37Nw _QQWhdAYFEeaomtKEjp37Nw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_QQWhcQYFEeaomtKEjp37Nw" name="relevante informationen zu keyword zurückgeben" type="_LvovUAYFEeaomtKEjp37Nw" association="_QQWhcAYFEeaomtKEjp37Nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QQWhcgYFEeaomtKEjp37Nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QQWhcwYFEeaomtKEjp37Nw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_QQWhdAYFEeaomtKEjp37Nw" name="representation client" type="_I_uzgAYFEeaomtKEjp37Nw" association="_QQWhcAYFEeaomtKEjp37Nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QQWhdQYFEeaomtKEjp37Nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QQWhdgYFEeaomtKEjp37Nw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_U-RCEAYFEeaomtKEjp37Nw" name="Inhalte für Ergebnisliste zurückgeben"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_0U4x4AIvEeaUxsU5qkIFfA" name="Event Processor"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1MiLkAIvEeaUxsU5qkIFfA" name="SpeechTokenizer">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3nnG4AIvEeaUxsU5qkIFfA" name="Tokens weiterleiten"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5rOkcAIvEeaUxsU5qkIFfA" name="Ergebnisliste füllen"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_FaIbkAIwEeaUxsU5qkIFfA" name="" memberEnd="_FaIbkQIwEeaUxsU5qkIFfA _FaIblAIwEeaUxsU5qkIFfA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_FaIbkQIwEeaUxsU5qkIFfA" name="hangouts-client ausführen" type="_3nnG4AIvEeaUxsU5qkIFfA" association="_FaIbkAIwEeaUxsU5qkIFfA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FaIbkgIwEeaUxsU5qkIFfA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FaIbkwIwEeaUxsU5qkIFfA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_FaIblAIwEeaUxsU5qkIFfA" name="mitarbeiter" type="_0U4x4AIvEeaUxsU5qkIFfA" association="_FaIbkAIwEeaUxsU5qkIFfA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FaIblQIwEeaUxsU5qkIFfA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FaIblgIwEeaUxsU5qkIFfA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_GB_FwAIwEeaUxsU5qkIFfA" name="" memberEnd="_GB_FwQIwEeaUxsU5qkIFfA _GB_FxAIwEeaUxsU5qkIFfA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_GB_FwQIwEeaUxsU5qkIFfA" name="plugin einbinden" type="_5rOkcAIvEeaUxsU5qkIFfA" association="_GB_FwAIwEeaUxsU5qkIFfA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GB_FwgIwEeaUxsU5qkIFfA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GB_FwwIwEeaUxsU5qkIFfA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_GB_FxAIwEeaUxsU5qkIFfA" name="mitarbeiter" type="_0U4x4AIvEeaUxsU5qkIFfA" association="_GB_FwAIwEeaUxsU5qkIFfA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GB_FxQIwEeaUxsU5qkIFfA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GB_FxgIwEeaUxsU5qkIFfA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Xo2_YAStEeaJ8er6fnNrmQ" name="Representation"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ZXfEYAStEeaJ8er6fnNrmQ" name="SpeechTokenizer">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_a_ztEAStEeaJ8er6fnNrmQ" name="Tokens analysieren"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_c_EPEAStEeaJ8er6fnNrmQ" name="Relevante Tokens versenden"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_h8-6kAStEeaJ8er6fnNrmQ" name="Tokens anreichern"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_j_EHEAStEeaJ8er6fnNrmQ" name="" memberEnd="_j_EHEQStEeaJ8er6fnNrmQ _j_EHFAStEeaJ8er6fnNrmQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j_EHEQStEeaJ8er6fnNrmQ" name="representation" type="_Xo2_YAStEeaJ8er6fnNrmQ" association="_j_EHEAStEeaJ8er6fnNrmQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j_EHEgStEeaJ8er6fnNrmQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j_EHEwStEeaJ8er6fnNrmQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j_EHFAStEeaJ8er6fnNrmQ" name="tokens anreichern" type="_h8-6kAStEeaJ8er6fnNrmQ" association="_j_EHEAStEeaJ8er6fnNrmQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j_EHFQStEeaJ8er6fnNrmQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j_EHFgStEeaJ8er6fnNrmQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_knAQ0AStEeaJ8er6fnNrmQ" name="" memberEnd="_knAQ0QStEeaJ8er6fnNrmQ _knAQ1AStEeaJ8er6fnNrmQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_knAQ0QStEeaJ8er6fnNrmQ" name="representation" type="_Xo2_YAStEeaJ8er6fnNrmQ" association="_knAQ0AStEeaJ8er6fnNrmQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_knAQ0gStEeaJ8er6fnNrmQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_knAQ0wStEeaJ8er6fnNrmQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_knAQ1AStEeaJ8er6fnNrmQ" name="tokens analysieren" type="_a_ztEAStEeaJ8er6fnNrmQ" association="_knAQ0AStEeaJ8er6fnNrmQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_knAQ1QStEeaJ8er6fnNrmQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_knAQ1gStEeaJ8er6fnNrmQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lTNPgAStEeaJ8er6fnNrmQ" name="" memberEnd="_lTNPgQStEeaJ8er6fnNrmQ _lTNPhAStEeaJ8er6fnNrmQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lTNPgQStEeaJ8er6fnNrmQ" name="representation" type="_Xo2_YAStEeaJ8er6fnNrmQ" association="_lTNPgAStEeaJ8er6fnNrmQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lTNPggStEeaJ8er6fnNrmQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lTNPgwStEeaJ8er6fnNrmQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lTNPhAStEeaJ8er6fnNrmQ" name="relevante tokens versenden" type="_c_EPEAStEeaJ8er6fnNrmQ" association="_lTNPgAStEeaJ8er6fnNrmQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lTNPhQStEeaJ8er6fnNrmQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lTNPhgStEeaJ8er6fnNrmQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_6o-wYAYEEeaomtKEjp37Nw" name="GoogleWebSpeechAPI"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_I_uzgAYFEeaomtKEjp37Nw" name="Representation Client"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_RwA9YAYFEeaomtKEjp37Nw" name="Event Processor"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ageGYAYFEeaomtKEjp37Nw" name="" memberEnd="_ageGYQYFEeaomtKEjp37Nw _ageGZAYFEeaomtKEjp37Nw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ageGYQYFEeaomtKEjp37Nw" name="event processor" type="_RwA9YAYFEeaomtKEjp37Nw" association="_ageGYAYFEeaomtKEjp37Nw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ageGYgYFEeaomtKEjp37Nw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ageGYwYFEeaomtKEjp37Nw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ageGZAYFEeaomtKEjp37Nw" name="inhalte für ergebnisliste zurückgeben" type="_U-RCEAYFEeaomtKEjp37Nw" association="_ageGYAYFEeaomtKEjp37Nw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ageGZQYFEeaomtKEjp37Nw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ageGZgYFEeaomtKEjp37Nw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_O8JcsAYHEeaomtKEjp37Nw" name="Text an Hangouts Plugin zurückgeben" visibility="private" group="_iAJcoAYIEeaomtKEjp37Nw __1SgYAYIEeaomtKEjp37Nw _D4DLMAYJEeaomtKEjp37Nw _L6W0wAYJEeaomtKEjp37Nw _T1opQAYJEeaomtKEjp37Nw _9T-dYAYMEeaomtKEjp37Nw _AV7ygAYNEeaomtKEjp37Nw _660iwAYOEeaomtKEjp37Nw _9q0lMAYOEeaomtKEjp37Nw _hPTU4AYQEeaomtKEjp37Nw _RaFL0AYUEeaomtKEjp37Nw" node="_ujz8EAYJEeaomtKEjp37Nw _nnJPcAYKEeaomtKEjp37Nw _4ndV0AYKEeaomtKEjp37Nw _5YrXYAYKEeaomtKEjp37Nw _9lIwwAYKEeaomtKEjp37Nw _BVKs0AYLEeaomtKEjp37Nw _MzX1gAYLEeaomtKEjp37Nw _ZyhMgAYLEeaomtKEjp37Nw _wyV-QAYLEeaomtKEjp37Nw _M3-zQAYMEeaomtKEjp37Nw _lLR_EAYMEeaomtKEjp37Nw _lpMqIAYMEeaomtKEjp37Nw _atvMsAYNEeaomtKEjp37Nw _bpr3kAYNEeaomtKEjp37Nw _shuywAYNEeaomtKEjp37Nw _vzYwwAYNEeaomtKEjp37Nw _0oO_0AYNEeaomtKEjp37Nw _6z0_YAYNEeaomtKEjp37Nw _-uQ0oAYNEeaomtKEjp37Nw _F5z1UAYOEeaomtKEjp37Nw _oIrSYAYOEeaomtKEjp37Nw _o0xjYAYOEeaomtKEjp37Nw _adnbIAYPEeaomtKEjp37Nw _dOXrgAYPEeaomtKEjp37Nw _t1a9UAYPEeaomtKEjp37Nw _8LGpcAYPEeaomtKEjp37Nw _FsEpYAYQEeaomtKEjp37Nw _fN1MYAYQEeaomtKEjp37Nw _YoLmsAYTEeaomtKEjp37Nw _breYkAYTEeaomtKEjp37Nw _lXOFIAYTEeaomtKEjp37Nw _sl-K0AYTEeaomtKEjp37Nw _0-GTYAYTEeaomtKEjp37Nw _OmN9EAYUEeaomtKEjp37Nw">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_IiNWwAYVEeaomtKEjp37Nw">
+      <body>Relevante Informationen zu Keyword zurückgeben
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_PUAasAYVEeaomtKEjp37Nw">
+      <body>Inhalte für Ergebnisliste zurückgeben</body>
+    </ownedComment>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_iUHaIAYLEeaomtKEjp37Nw" name="" source="_4ndV0AYKEeaomtKEjp37Nw" target="_5YrXYAYKEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jUkKgAYLEeaomtKEjp37Nw" name="" source="_5YrXYAYKEeaomtKEjp37Nw" target="_9lIwwAYKEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mCqvgAYLEeaomtKEjp37Nw" name="" source="_9lIwwAYKEeaomtKEjp37Nw" target="_BVKs0AYLEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_61ZXkAYLEeaomtKEjp37Nw" name="" source="_BVKs0AYLEeaomtKEjp37Nw" target="_wyV-QAYLEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FU3nIAYMEeaomtKEjp37Nw" name="[Keyword vorhanden]" source="_wyV-QAYLEeaomtKEjp37Nw" target="_MzX1gAYLEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_S2Ko8AYMEeaomtKEjp37Nw" name="[Keyword nicht vorhanden]" source="_wyV-QAYLEeaomtKEjp37Nw" target="_M3-zQAYMEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_iWBCIAYMEeaomtKEjp37Nw" name="" source="_MzX1gAYLEeaomtKEjp37Nw" target="_ZyhMgAYLEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xMo4IAYMEeaomtKEjp37Nw" name="" source="_ZyhMgAYLEeaomtKEjp37Nw" target="_lpMqIAYMEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zIrHAAYMEeaomtKEjp37Nw" name="" source="_M3-zQAYMEeaomtKEjp37Nw" target="_lLR_EAYMEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HpPLkAYOEeaomtKEjp37Nw" name="" source="_0oO_0AYNEeaomtKEjp37Nw" target="_F5z1UAYOEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KHGVIAYOEeaomtKEjp37Nw" name="[Inhalte vorhanden]   " source="_F5z1UAYOEeaomtKEjp37Nw" target="_6z0_YAYNEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NK-V0AYOEeaomtKEjp37Nw" name="[Inhalte nicht vorhanden]   " source="_F5z1UAYOEeaomtKEjp37Nw" target="_-uQ0oAYNEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d6XEQAYOEeaomtKEjp37Nw" name="" source="_atvMsAYNEeaomtKEjp37Nw" target="_bpr3kAYNEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_e7kCkAYOEeaomtKEjp37Nw" name="" source="_bpr3kAYNEeaomtKEjp37Nw" target="_shuywAYNEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gYDOsAYOEeaomtKEjp37Nw" name="" source="_shuywAYNEeaomtKEjp37Nw" target="_vzYwwAYNEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hDlfAAYOEeaomtKEjp37Nw" name="" source="_vzYwwAYNEeaomtKEjp37Nw" target="_0oO_0AYNEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qgXigAYOEeaomtKEjp37Nw" name="" source="_-uQ0oAYNEeaomtKEjp37Nw" target="_o0xjYAYOEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rjFjwAYOEeaomtKEjp37Nw" name="" source="_6z0_YAYNEeaomtKEjp37Nw" target="_oIrSYAYOEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_J09KUAYQEeaomtKEjp37Nw" name="" target="_t1a9UAYPEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KuYssAYQEeaomtKEjp37Nw" name="[Gesprochenes nicht erkannt]  " source="_t1a9UAYPEeaomtKEjp37Nw" target="_FsEpYAYQEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PO1ZEAYQEeaomtKEjp37Nw" name="[Gesprochenes erkannt]  " source="_t1a9UAYPEeaomtKEjp37Nw" target="_adnbIAYPEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Tu2AkAYQEeaomtKEjp37Nw" name="" source="_adnbIAYPEeaomtKEjp37Nw" target="_dOXrgAYPEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XJRgEAYQEeaomtKEjp37Nw" name="" source="_dOXrgAYPEeaomtKEjp37Nw" target="_8LGpcAYPEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d285AAYQEeaomtKEjp37Nw" name=""/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gN6wYAYQEeaomtKEjp37Nw" name="" source="_8LGpcAYPEeaomtKEjp37Nw" target="_fN1MYAYQEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_361KQAYTEeaomtKEjp37Nw" name="" source="_breYkAYTEeaomtKEjp37Nw" target="_lXOFIAYTEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4yRIkAYTEeaomtKEjp37Nw" name="" source="_lXOFIAYTEeaomtKEjp37Nw" target="_0-GTYAYTEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6N4yAAYTEeaomtKEjp37Nw" name="" source="_0-GTYAYTEeaomtKEjp37Nw" target="_sl-K0AYTEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7x47YAYTEeaomtKEjp37Nw" name="" source="_sl-K0AYTEeaomtKEjp37Nw" target="_t1a9UAYPEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Cp6jIAYUEeaomtKEjp37Nw" name="" source="_dOXrgAYPEeaomtKEjp37Nw" target="_YoLmsAYTEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PkPrkAYUEeaomtKEjp37Nw" name="" source="_YoLmsAYTEeaomtKEjp37Nw" target="_OmN9EAYUEeaomtKEjp37Nw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_iAJcoAYIEeaomtKEjp37Nw" name="Hangouts Plugin">
+      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_az3cIAYIEeaomtKEjp37Nw" name="Representation"/>
+    </group>
+    <group xmi:type="uml:ActivityPartition" xmi:id="__1SgYAYIEeaomtKEjp37Nw" name="Google Web Speech API"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_D4DLMAYJEeaomtKEjp37Nw" name="Representation" node="_nnJPcAYKEeaomtKEjp37Nw _ujz8EAYJEeaomtKEjp37Nw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_L6W0wAYJEeaomtKEjp37Nw" name="Mitarbeiter"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_T1opQAYJEeaomtKEjp37Nw" name="Event Processor"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_9T-dYAYMEeaomtKEjp37Nw" name="Hangouts Plugin   " node="_ZyhMgAYLEeaomtKEjp37Nw _9lIwwAYKEeaomtKEjp37Nw _BVKs0AYLEeaomtKEjp37Nw _5YrXYAYKEeaomtKEjp37Nw _4ndV0AYKEeaomtKEjp37Nw _lpMqIAYMEeaomtKEjp37Nw _wyV-QAYLEeaomtKEjp37Nw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_AV7ygAYNEeaomtKEjp37Nw" name="Representation Client   " node="_wyV-QAYLEeaomtKEjp37Nw _M3-zQAYMEeaomtKEjp37Nw _lLR_EAYMEeaomtKEjp37Nw _MzX1gAYLEeaomtKEjp37Nw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_660iwAYOEeaomtKEjp37Nw" name="Event Processor" node="_vzYwwAYNEeaomtKEjp37Nw _0oO_0AYNEeaomtKEjp37Nw _F5z1UAYOEeaomtKEjp37Nw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_9q0lMAYOEeaomtKEjp37Nw" name="Hangouts Plugin   " node="_bpr3kAYNEeaomtKEjp37Nw _-uQ0oAYNEeaomtKEjp37Nw _6z0_YAYNEeaomtKEjp37Nw _shuywAYNEeaomtKEjp37Nw _oIrSYAYOEeaomtKEjp37Nw _o0xjYAYOEeaomtKEjp37Nw _atvMsAYNEeaomtKEjp37Nw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_hPTU4AYQEeaomtKEjp37Nw" name="GoogleWebSpeechAPI" node="_sl-K0AYTEeaomtKEjp37Nw _FsEpYAYQEeaomtKEjp37Nw _t1a9UAYPEeaomtKEjp37Nw _dOXrgAYPEeaomtKEjp37Nw _adnbIAYPEeaomtKEjp37Nw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_RaFL0AYUEeaomtKEjp37Nw" name="Hangouts Plugin   " node="_breYkAYTEeaomtKEjp37Nw _OmN9EAYUEeaomtKEjp37Nw _0-GTYAYTEeaomtKEjp37Nw _lXOFIAYTEeaomtKEjp37Nw _YoLmsAYTEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_ujz8EAYJEeaomtKEjp37Nw" name="InitialNode" inPartition="_D4DLMAYJEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_nnJPcAYKEeaomtKEjp37Nw" name="Nach Keywords filtern" inPartition="_D4DLMAYJEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_4ndV0AYKEeaomtKEjp37Nw" name="InitialNode1" inPartition="_9T-dYAYMEeaomtKEjp37Nw" outgoing="_iUHaIAYLEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5YrXYAYKEeaomtKEjp37Nw" name="Nach Keywords filtern" inPartition="_9T-dYAYMEeaomtKEjp37Nw" outgoing="_jUkKgAYLEeaomtKEjp37Nw" incoming="_iUHaIAYLEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_9lIwwAYKEeaomtKEjp37Nw" name="Relevantes Keyword auswählen" inPartition="_9T-dYAYMEeaomtKEjp37Nw" outgoing="_mCqvgAYLEeaomtKEjp37Nw" incoming="_jUkKgAYLEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_BVKs0AYLEeaomtKEjp37Nw" name="Keyword an Representation Client senden" inPartition="_9T-dYAYMEeaomtKEjp37Nw" outgoing="_61ZXkAYLEeaomtKEjp37Nw" incoming="_mCqvgAYLEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_MzX1gAYLEeaomtKEjp37Nw" name="Relevante Informationen zu Keyword zurückgeben   " inPartition="_AV7ygAYNEeaomtKEjp37Nw" outgoing="_iWBCIAYMEeaomtKEjp37Nw" incoming="_FU3nIAYMEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZyhMgAYLEeaomtKEjp37Nw" name="Relevante Informationen erhalten" inPartition="_9T-dYAYMEeaomtKEjp37Nw" outgoing="_xMo4IAYMEeaomtKEjp37Nw" incoming="_iWBCIAYMEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_wyV-QAYLEeaomtKEjp37Nw" name="DecisionNode" inPartition="_AV7ygAYNEeaomtKEjp37Nw _9T-dYAYMEeaomtKEjp37Nw" outgoing="_FU3nIAYMEeaomtKEjp37Nw _S2Ko8AYMEeaomtKEjp37Nw" incoming="_61ZXkAYLEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_M3-zQAYMEeaomtKEjp37Nw" name="Fehlermeldung zurücksenden   " inPartition="_AV7ygAYNEeaomtKEjp37Nw" outgoing="_zIrHAAYMEeaomtKEjp37Nw" incoming="_S2Ko8AYMEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_lLR_EAYMEeaomtKEjp37Nw" name="ActivityFinalNode" inPartition="_AV7ygAYNEeaomtKEjp37Nw" incoming="_zIrHAAYMEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_lpMqIAYMEeaomtKEjp37Nw" name="ActivityFinalNode1" inPartition="_9T-dYAYMEeaomtKEjp37Nw" incoming="_xMo4IAYMEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_atvMsAYNEeaomtKEjp37Nw" name="InitialNode2" inPartition="_9q0lMAYOEeaomtKEjp37Nw" outgoing="_d6XEQAYOEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_bpr3kAYNEeaomtKEjp37Nw" name="Token generieren und anreichern  " inPartition="_9q0lMAYOEeaomtKEjp37Nw" outgoing="_e7kCkAYOEeaomtKEjp37Nw" incoming="_d6XEQAYOEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_shuywAYNEeaomtKEjp37Nw" name="Token senden" inPartition="_9q0lMAYOEeaomtKEjp37Nw" outgoing="_gYDOsAYOEeaomtKEjp37Nw" incoming="_e7kCkAYOEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_vzYwwAYNEeaomtKEjp37Nw" name="Token erhalten" inPartition="_660iwAYOEeaomtKEjp37Nw" outgoing="_hDlfAAYOEeaomtKEjp37Nw" incoming="_gYDOsAYOEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0oO_0AYNEeaomtKEjp37Nw" name="Inhalte für Ergebnisliste zurückgeben   " inPartition="_660iwAYOEeaomtKEjp37Nw" outgoing="_HpPLkAYOEeaomtKEjp37Nw" incoming="_hDlfAAYOEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_6z0_YAYNEeaomtKEjp37Nw" name="Inhalte für Ergebnisliste erhalten  " inPartition="_9q0lMAYOEeaomtKEjp37Nw" outgoing="_rjFjwAYOEeaomtKEjp37Nw" incoming="_KHGVIAYOEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-uQ0oAYNEeaomtKEjp37Nw" name="Inhalte für Ergebnisliste nicht erhalten  " inPartition="_9q0lMAYOEeaomtKEjp37Nw" outgoing="_qgXigAYOEeaomtKEjp37Nw" incoming="_NK-V0AYOEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_F5z1UAYOEeaomtKEjp37Nw" name="DecisionNode1" inPartition="_660iwAYOEeaomtKEjp37Nw" outgoing="_KHGVIAYOEeaomtKEjp37Nw _NK-V0AYOEeaomtKEjp37Nw" incoming="_HpPLkAYOEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_oIrSYAYOEeaomtKEjp37Nw" name="ActivityFinalNode2" inPartition="_9q0lMAYOEeaomtKEjp37Nw" incoming="_rjFjwAYOEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_o0xjYAYOEeaomtKEjp37Nw" name="ActivityFinalNode3" inPartition="_9q0lMAYOEeaomtKEjp37Nw" incoming="_qgXigAYOEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_adnbIAYPEeaomtKEjp37Nw" name="Gesprochenes in Text umwandeln" inPartition="_hPTU4AYQEeaomtKEjp37Nw" outgoing="_Tu2AkAYQEeaomtKEjp37Nw" incoming="_PO1ZEAYQEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_dOXrgAYPEeaomtKEjp37Nw" name="Text zurückgeben" inPartition="_hPTU4AYQEeaomtKEjp37Nw" outgoing="_XJRgEAYQEeaomtKEjp37Nw _Cp6jIAYUEeaomtKEjp37Nw" incoming="_Tu2AkAYQEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_t1a9UAYPEeaomtKEjp37Nw" name="DecisionNode2" inPartition="_hPTU4AYQEeaomtKEjp37Nw" outgoing="_KuYssAYQEeaomtKEjp37Nw _PO1ZEAYQEeaomtKEjp37Nw" incoming="_J09KUAYQEeaomtKEjp37Nw _7x47YAYTEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_8LGpcAYPEeaomtKEjp37Nw" name="Text erhalten" outgoing="_gN6wYAYQEeaomtKEjp37Nw" incoming="_XJRgEAYQEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_FsEpYAYQEeaomtKEjp37Nw" name="ActivityFinalNode4" inPartition="_hPTU4AYQEeaomtKEjp37Nw" incoming="_KuYssAYQEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_fN1MYAYQEeaomtKEjp37Nw" name="ActivityFinalNode5" incoming="_gN6wYAYQEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_YoLmsAYTEeaomtKEjp37Nw" name="Text erhalten" inPartition="_RaFL0AYUEeaomtKEjp37Nw" outgoing="_PkPrkAYUEeaomtKEjp37Nw" incoming="_Cp6jIAYUEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_breYkAYTEeaomtKEjp37Nw" name="InitialNode3" inPartition="_RaFL0AYUEeaomtKEjp37Nw" outgoing="_361KQAYTEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_lXOFIAYTEeaomtKEjp37Nw" name="Audiostream aufnehmen   " inPartition="_RaFL0AYUEeaomtKEjp37Nw" outgoing="_4yRIkAYTEeaomtKEjp37Nw" incoming="_361KQAYTEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_sl-K0AYTEeaomtKEjp37Nw" name="Gesprochenes im Audiostream erkennen   " inPartition="_hPTU4AYQEeaomtKEjp37Nw" outgoing="_7x47YAYTEeaomtKEjp37Nw" incoming="_6N4yAAYTEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0-GTYAYTEeaomtKEjp37Nw" name="Audiostream versenden" inPartition="_RaFL0AYUEeaomtKEjp37Nw" outgoing="_6N4yAAYTEeaomtKEjp37Nw" incoming="_4yRIkAYTEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_OmN9EAYUEeaomtKEjp37Nw" name="ActivityFinalNode6" inPartition="_RaFL0AYUEeaomtKEjp37Nw" incoming="_PkPrkAYUEeaomtKEjp37Nw"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_1MOuoAYWEeaomtKEjp37Nw" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_1MPVsAYWEeaomtKEjp37Nw" name="Mit Dokumenten in der Ergebnisliste interagieren   " group="_xeeOAAYXEeaomtKEjp37Nw _1b33sAYXEeaomtKEjp37Nw" node="_ArIa4AYXEeaomtKEjp37Nw _BNb2sAYXEeaomtKEjp37Nw _NjbjAAYXEeaomtKEjp37Nw _T7BXMAYXEeaomtKEjp37Nw _fMtt4AYXEeaomtKEjp37Nw _leIBkAYXEeaomtKEjp37Nw _oz64sAYXEeaomtKEjp37Nw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rgl6VQYXEeaomtKEjp37Nw" name="" source="_ArIa4AYXEeaomtKEjp37Nw" target="_BNb2sAYXEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sK8e4AYXEeaomtKEjp37Nw" name="" source="_BNb2sAYXEeaomtKEjp37Nw" target="_NjbjAAYXEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_syIasAYXEeaomtKEjp37Nw" name="" source="_NjbjAAYXEeaomtKEjp37Nw" target="_T7BXMAYXEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tXi04AYXEeaomtKEjp37Nw" name="" source="_T7BXMAYXEeaomtKEjp37Nw" target="_fMtt4AYXEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_vBvF0AYXEeaomtKEjp37Nw" name="" source="_fMtt4AYXEeaomtKEjp37Nw" target="_leIBkAYXEeaomtKEjp37Nw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_v0MdgAYXEeaomtKEjp37Nw" name="" source="_leIBkAYXEeaomtKEjp37Nw" target="_oz64sAYXEeaomtKEjp37Nw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_xeeOAAYXEeaomtKEjp37Nw" name="Hangouts Plugin  " node="_ArIa4AYXEeaomtKEjp37Nw _BNb2sAYXEeaomtKEjp37Nw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_1b33sAYXEeaomtKEjp37Nw" name="Mitarbeiter  " node="_NjbjAAYXEeaomtKEjp37Nw _oz64sAYXEeaomtKEjp37Nw _fMtt4AYXEeaomtKEjp37Nw _leIBkAYXEeaomtKEjp37Nw _T7BXMAYXEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_ArIa4AYXEeaomtKEjp37Nw" name="InitialNode" inPartition="_xeeOAAYXEeaomtKEjp37Nw" outgoing="_rgl6VQYXEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_BNb2sAYXEeaomtKEjp37Nw" name="Ergebnisliste mit Dokumentenvorschlägen bereitstellen   " inPartition="_xeeOAAYXEeaomtKEjp37Nw" outgoing="_sK8e4AYXEeaomtKEjp37Nw" incoming="_rgl6VQYXEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NjbjAAYXEeaomtKEjp37Nw" name="Dokumentenvorschläge erhalten  " inPartition="_1b33sAYXEeaomtKEjp37Nw" outgoing="_syIasAYXEeaomtKEjp37Nw" incoming="_sK8e4AYXEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_T7BXMAYXEeaomtKEjp37Nw" name="Mit Dokumenten interagieren  " inPartition="_1b33sAYXEeaomtKEjp37Nw" outgoing="_tXi04AYXEeaomtKEjp37Nw" incoming="_syIasAYXEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_fMtt4AYXEeaomtKEjp37Nw" name="Dokument auswählen und öffnen  " inPartition="_1b33sAYXEeaomtKEjp37Nw" outgoing="_vBvF0AYXEeaomtKEjp37Nw" incoming="_tXi04AYXEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_leIBkAYXEeaomtKEjp37Nw" name="Dokument verarbeiten  " inPartition="_1b33sAYXEeaomtKEjp37Nw" outgoing="_v0MdgAYXEeaomtKEjp37Nw" incoming="_vBvF0AYXEeaomtKEjp37Nw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_oz64sAYXEeaomtKEjp37Nw" name="ActivityFinalNode" inPartition="_1b33sAYXEeaomtKEjp37Nw" incoming="_v0MdgAYXEeaomtKEjp37Nw"/>
+  </packagedElement>
+</uml:Model>
