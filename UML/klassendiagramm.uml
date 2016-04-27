@@ -104,17 +104,6 @@
         <value xsi:nil="true"/>
       </defaultValue>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_o42NoAZnEeaGp98nz21wIw" name="setUserId">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_woy74AZnEeaGp98nz21wIw" name="userId">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DXkIIAZoEeaGp98nz21wIw" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_1zkXoAZnEeaGp98nz21wIw" name="getUserId">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6m0EMAZnEeaGp98nz21wIw" name="" direction="return">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </ownedParameter>
-    </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_X6y7oAZoEeaGp98nz21wIw" name="setFirstname">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_b5u2YAZoEeaGp98nz21wIw" name="firstname">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
@@ -146,6 +135,39 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_KOuXwAZpEeaGp98nz21wIw" name="getHangoutsId">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_QUVEEAZpEeaGp98nz21wIw" name="hangoutsId" direction="return">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nICTcAxeEead5cSfxhIngQ" name="setSessionId" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sfXkgAxeEead5cSfxhIngQ" name="sessionId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_x_NRUAxeEead5cSfxhIngQ" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_47MzEAxeEead5cSfxhIngQ" name="getSessionId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8n2rAAxeEead5cSfxhIngQ" name="sessionId" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BmnrEAxfEead5cSfxhIngQ" name="setGmail">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_LeNbQAxfEead5cSfxhIngQ" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YR-BoAxfEead5cSfxhIngQ" name="gmail">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jSfv0AxfEead5cSfxhIngQ" name="getGmail">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2c_10AxfEead5cSfxhIngQ" name="String" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HNPf4AxgEead5cSfxhIngQ" name="setRole">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KbougAxgEead5cSfxhIngQ" name="role">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_NUEUMAxgEead5cSfxhIngQ" name="String" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PWI5oAxgEead5cSfxhIngQ" name="getRole">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_TJ4RAAxgEead5cSfxhIngQ" name="String" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
@@ -334,38 +356,6 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uniR8AZrEeaGp98nz21wIw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uni5AAZrEeaGp98nz21wIw" value="1"/>
       <defaultValue xmi:type="uml:LiteralString" xmi:id="_unkHIAZrEeaGp98nz21wIw">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_17pYwAZrEeaGp98nz21wIw" name="lastname" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_23Z2YAZrEeaGp98nz21wIw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_23Z2YQZrEeaGp98nz21wIw" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_23adcAZrEeaGp98nz21wIw">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_5fFqUAZrEeaGp98nz21wIw" name="firstname" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6AtwsAZrEeaGp98nz21wIw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6AuXwAZrEeaGp98nz21wIw" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_6Au-0AZrEeaGp98nz21wIw">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9TSUsAZrEeaGp98nz21wIw" name="hangoutsId" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-J07IAZrEeaGp98nz21wIw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-J07IQZrEeaGp98nz21wIw" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_-J2JQAZrEeaGp98nz21wIw">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_BSxCAAZsEeaGp98nz21wIw" name="sessionId" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BkGCkAZsEeaGp98nz21wIw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BkGpoAZsEeaGp98nz21wIw" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_BkHQsAZsEeaGp98nz21wIw">
         <value xsi:nil="true"/>
       </defaultValue>
     </ownedAttribute>
@@ -620,7 +610,59 @@
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sVH40AxdEead5cSfxhIngQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sVH40QxdEead5cSfxhIngQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_sVIf4QxdEead5cSfxhIngQ" name="client" type="_8EFy8AZFEeaGp98nz21wIw" association="_sVHRwAxdEead5cSfxhIngQ"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_sVIf4AxdEead5cSfxhIngQ" name="keyword" type="_ELh0IAZGEeaGp98nz21wIw" association="_sVHRwAxdEead5cSfxhIngQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sVIf4QxdEead5cSfxhIngQ" name="client" type="_8EFy8AZFEeaGp98nz21wIw" association="_sVHRwAxdEead5cSfxhIngQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YropYAxgEead5cSfxhIngQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YrrFoAxgEead5cSfxhIngQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sVIf4AxdEead5cSfxhIngQ" name="keyword" type="_ELh0IAZGEeaGp98nz21wIw" association="_sVHRwAxdEead5cSfxhIngQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZlK5cAxgEead5cSfxhIngQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZlMuoAxgEead5cSfxhIngQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_iMYm4AxgEead5cSfxhIngQ" name="GoogleHangoutsAPI">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iMYm4QxgEead5cSfxhIngQ" name="hangoutsId" visibility="private" aggregation="composite">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iMYm4gxgEead5cSfxhIngQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iMYm4wxgEead5cSfxhIngQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_iMYm5AxgEead5cSfxhIngQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iMYm5QxgEead5cSfxhIngQ" name="sessionId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iMYm5gxgEead5cSfxhIngQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iMYm5wxgEead5cSfxhIngQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_iMYm6AxgEead5cSfxhIngQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iMYm7QxgEead5cSfxhIngQ" name="getHangoutsId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_iMYm7gxgEead5cSfxhIngQ" name="int" type="_gazwgAZKEeaGp98nz21wIw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iMYm7wxgEead5cSfxhIngQ" name="IsApiReady">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_iMYm8AxgEead5cSfxhIngQ" name="boolean" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iMYm8QxgEead5cSfxhIngQ" name="getHangoutsURL">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_iMYm8gxgEead5cSfxhIngQ" name="String" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iMYm8wxgEead5cSfxhIngQ" name="getSessionId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_iMYm9AxgEead5cSfxhIngQ" name="int" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iMYm9QxgEead5cSfxhIngQ" name="hasMicrophone">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_iMYm9gxgEead5cSfxhIngQ" name="boolean" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_s10qwAxgEead5cSfxhIngQ" client="_B9JRAAZGEeaGp98nz21wIw" supplier="_W2VDUAcrEeaJu_u8xj-aPQ">
+    <name xsi:nil="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_vN25IAxgEead5cSfxhIngQ" client="_4Y23UAZFEeaGp98nz21wIw" supplier="_iMYm4AxgEead5cSfxhIngQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_wPII4AxgEead5cSfxhIngQ" client="_8EFy8AZFEeaGp98nz21wIw" supplier="_iMYm4AxgEead5cSfxhIngQ"/>
 </uml:Model>
