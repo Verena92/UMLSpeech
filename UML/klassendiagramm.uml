@@ -351,7 +351,6 @@
           <value xsi:nil="true"/>
         </defaultValue>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_bFH6MAxpEead5cSfxhIngQ" name="sttResult" visibility="private" type="_sLYRAAZJEeaGp98nz21wIw"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_j8cpAAb_EeaQgL1u9QfEQg" name="setKeywordId">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_mwI4oAb_EeaQgL1u9QfEQg" name="keywordId">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
@@ -390,7 +389,7 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_B-ITAAZHEeaGp98nz21wIw" name="ResultList">
+    <packagedElement xmi:type="uml:Class" xmi:id="_B-ITAAZHEeaGp98nz21wIw" name="Result">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_2JrGUAZuEeaGp98nz21wIw" name="resultListId" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2kI0wAZuEeaGp98nz21wIw" value="1"/>
@@ -578,7 +577,6 @@
     <packagedElement xmi:type="uml:Realization" xmi:id="_s10qwAxgEead5cSfxhIngQ" client="_B9JRAAZGEeaGp98nz21wIw" supplier="_W2VDUAcrEeaJu_u8xj-aPQ">
       <name xsi:nil="true"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Realization" xmi:id="_vN25IAxgEead5cSfxhIngQ" client="_4Y23UAZFEeaGp98nz21wIw" supplier="_iMYm4AxgEead5cSfxhIngQ"/>
     <packagedElement xmi:type="uml:Realization" xmi:id="_wPII4AxgEead5cSfxhIngQ" client="_8EFy8AZFEeaGp98nz21wIw" supplier="_iMYm4AxgEead5cSfxhIngQ"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_pZB-UAxhEead5cSfxhIngQ" name="Document">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_pZB-UQxhEead5cSfxhIngQ" name="id" visibility="private">
@@ -794,7 +792,6 @@
         </defaultValue>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_bpgkMAxqEead5cSfxhIngQ" name="moreInformation" visibility="private" type="_sLYRAAZJEeaGp98nz21wIw"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Wc28UAxuEead5cSfxhIngQ" name="token" visibility="private" type="_sLYRAAZJEeaGp98nz21wIw"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_PYwkVQxqEead5cSfxhIngQ" name="updateToken">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_PYwkVgxqEead5cSfxhIngQ" name="relatedKeywords" type="_sLYRAAZJEeaGp98nz21wIw"/>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_PYwkVwxqEead5cSfxhIngQ" name="token" type="_sLYRAAZJEeaGp98nz21wIw" direction="return"/>
@@ -866,7 +863,6 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_MVQFEAxsEead5cSfxhIngQ" name="informationtokeyword" type="_PYwkQAxqEead5cSfxhIngQ" association="_MVPeAAxsEead5cSfxhIngQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_i4r1wAxsEead5cSfxhIngQ" name="SendToken">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_i4r1xQxsEead5cSfxhIngQ" name="token" visibility="private" type="_sLYRAAZJEeaGp98nz21wIw"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_i4r1zgxsEead5cSfxhIngQ" name="getToken">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_pb98kAxsEead5cSfxhIngQ" name="JSON" type="_sLYRAAZJEeaGp98nz21wIw" direction="return"/>
       </ownedOperation>
@@ -888,6 +884,13 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_VamDgAxtEead5cSfxhIngQ" name="keyword" type="_ELh0IAZGEeaGp98nz21wIw" association="_Vak1YAxtEead5cSfxhIngQ"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_ValccgxtEead5cSfxhIngQ" name="token" type="_DW0ZsAZGEeaGp98nz21wIw" association="_Vak1YAxtEead5cSfxhIngQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_X5eYYAx7Eead5cSfxhIngQ" memberEnd="_X5e_cgx7Eead5cSfxhIngQ _X5fmgAx7Eead5cSfxhIngQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X5e_cAx7Eead5cSfxhIngQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_X5e_cQx7Eead5cSfxhIngQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_X5fmgAx7Eead5cSfxhIngQ" name="keyword" type="_ELh0IAZGEeaGp98nz21wIw" association="_X5eYYAx7Eead5cSfxhIngQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_X5e_cgx7Eead5cSfxhIngQ" name="webspeech" type="_B9JRAAZGEeaGp98nz21wIw" association="_X5eYYAx7Eead5cSfxhIngQ"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_P_XVcAxjEead5cSfxhIngQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_P_kw0AxjEead5cSfxhIngQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
