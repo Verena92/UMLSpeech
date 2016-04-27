@@ -422,86 +422,30 @@
         <value xsi:nil="true"/>
       </defaultValue>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_5Zkw0AZuEeaGp98nz21wIw" name="documentName" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5pcY0AZuEeaGp98nz21wIw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5pc_4AZuEeaGp98nz21wIw" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_5pc_4QZuEeaGp98nz21wIw">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="__bkIcAZuEeaGp98nz21wIw" name="documentType" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__pczcAZuEeaGp98nz21wIw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__pdagAZuEeaGp98nz21wIw" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="__peooAZuEeaGp98nz21wIw">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_DxUAsAZvEeaGp98nz21wIw" name="documentPath" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EboJAAZvEeaGp98nz21wIw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EboJAQZvEeaGp98nz21wIw" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_EbowEAZvEeaGp98nz21wIw">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_IHmEcAZvEeaGp98nz21wIw" name="hangoutsId" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IinzkAZvEeaGp98nz21wIw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IioaoAZvEeaGp98nz21wIw" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_IipBsAZvEeaGp98nz21wIw">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_MAZiAAZvEeaGp98nz21wIw" name="gmail" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MZ7cUAZvEeaGp98nz21wIw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MZ7cUQZvEeaGp98nz21wIw" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MZ8DYAZvEeaGp98nz21wIw">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_KAK28AcwEeaJu_u8xj-aPQ" name="document" visibility="private" type="_sLYRAAZJEeaGp98nz21wIw">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KAK28AcwEeaJu_u8xj-aPQ" name="documentList" visibility="private" type="_fzpHIAcsEeaJu_u8xj-aPQ">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KZxpwAcwEeaJu_u8xj-aPQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KZyQ0AcwEeaJu_u8xj-aPQ" value="1"/>
       <defaultValue xmi:type="uml:LiteralString" xmi:id="_KZy34AcwEeaJu_u8xj-aPQ">
         <value xsi:nil="true"/>
       </defaultValue>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_OVuh8AcwEeaJu_u8xj-aPQ" name="sessionId" visibility="private" type="_gazwgAZKEeaGp98nz21wIw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OrG8EAcwEeaJu_u8xj-aPQ" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OrHjIAcwEeaJu_u8xj-aPQ" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_OrIKMAcwEeaJu_u8xj-aPQ">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_QRGiMAZvEeaGp98nz21wIw" name="getDocumentFromSpeechTokenizer">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VqnkkAZvEeaGp98nz21wIw" name="documentPath" direction="return">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_Yi_f4AZvEeaGp98nz21wIw" name="setResultListId">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cVbPsAZvEeaGp98nz21wIw" name="resultListId">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kLqzMAZvEeaGp98nz21wIw" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_dg8AkAZvEeaGp98nz21wIw" name="getResultListId">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hoJtkAZvEeaGp98nz21wIw" name="resultListId" direction="return">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QRGiMAZvEeaGp98nz21wIw" name="setResultListId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VqnkkAZvEeaGp98nz21wIw" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_s7YY0AxjEead5cSfxhIngQ" name="resultListId">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_uqbREAZvEeaGp98nz21wIw" name="createResultList">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2sPLYAZvEeaGp98nz21wIw" name="documentName">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Yi_f4AZvEeaGp98nz21wIw" name="getResultListId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kLqzMAZvEeaGp98nz21wIw" name="Id" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6AULQAZvEeaGp98nz21wIw" name="documentPath">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_80Q5kAZvEeaGp98nz21wIw" name="documentType">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dg8AkAZvEeaGp98nz21wIw" name="setDocumentList">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9Rz0sAxjEead5cSfxhIngQ" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__bIRoAxjEead5cSfxhIngQ" name="documentList" type="_fzpHIAcsEeaJu_u8xj-aPQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_uqbREAZvEeaGp98nz21wIw" name="getDocumentList">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_E0zsEAxkEead5cSfxhIngQ" name="Array" type="_fzpHIAcsEeaJu_u8xj-aPQ" direction="return"/>
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:DataType" xmi:id="_sLYRAAZJEeaGp98nz21wIw" name="JSON"/>
@@ -753,4 +697,10 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z_b8UAxhEead5cSfxhIngQ" value="*"/>
     </ownedEnd>
   </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_P_XVcAxjEead5cSfxhIngQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_P_kw0AxjEead5cSfxhIngQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
 </uml:Model>
