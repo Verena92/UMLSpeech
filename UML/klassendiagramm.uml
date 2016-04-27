@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_czVFwAZFEeaGp98nz21wIw" name="model">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_czVFwAZFEeaGp98nz21wIw" name="model">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_1jUpEAZPEeaGp98nz21wIw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -149,7 +149,7 @@
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_B9JRAAZGEeaGp98nz21wIw" clientDependency="_GsIasActEeaJu_u8xj-aPQ" name="WebSpeech">
+  <packagedElement xmi:type="uml:Class" xmi:id="_B9JRAAZGEeaGp98nz21wIw" name="WebSpeech">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Xb6x0AZpEeaGp98nz21wIw" name="results" visibility="private" type="_sLYRAAZJEeaGp98nz21wIw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Xz6bEAZpEeaGp98nz21wIw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Xz6bEQZpEeaGp98nz21wIw" value="1"/>
@@ -517,7 +517,7 @@
   <packagedElement xmi:type="uml:DataType" xmi:id="_sLYRAAZJEeaGp98nz21wIw" name="JSON"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_gazwgAZKEeaGp98nz21wIw" name="int"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_vwN-0AZLEeaGp98nz21wIw" name="Spracherkennung" memberEnd="_vwN-0QZLEeaGp98nz21wIw _vwMwsAZLEeaGp98nz21wIw">
-    <ownedEnd xmi:type="uml:Property" xmi:id="_vwMwsAZLEeaGp98nz21wIw" name="webSpeech" type="_B9JRAAZGEeaGp98nz21wIw" aggregation="shared" association="_vwN-0AZLEeaGp98nz21wIw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vwMwsAZLEeaGp98nz21wIw" name="webSpeech" type="_B9JRAAZGEeaGp98nz21wIw" association="_vwN-0AZLEeaGp98nz21wIw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vwMwsQZLEeaGp98nz21wIw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vwMwsgZLEeaGp98nz21wIw" value="1"/>
     </ownedEnd>
@@ -538,7 +538,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:DataType" xmi:id="_Joc3YAZoEeaGp98nz21wIw" name="void"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_IMJ-4AZwEeaGp98nz21wIw" name="Erstellung" memberEnd="_IMJ-4QZwEeaGp98nz21wIw _IMG7kAZwEeaGp98nz21wIw">
-    <ownedEnd xmi:type="uml:Property" xmi:id="_IMJ-4QZwEeaGp98nz21wIw" name="keyword" type="_ELh0IAZGEeaGp98nz21wIw" aggregation="composite" association="_IMJ-4AZwEeaGp98nz21wIw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IMJ-4QZwEeaGp98nz21wIw" name="keyword" type="_ELh0IAZGEeaGp98nz21wIw" association="_IMJ-4AZwEeaGp98nz21wIw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IMJ-4gZwEeaGp98nz21wIw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IMJ-4wZwEeaGp98nz21wIw" value="*"/>
     </ownedEnd>
@@ -548,7 +548,7 @@
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_YTnKoAZwEeaGp98nz21wIw" name="Erstellung" memberEnd="_YTnKoQZwEeaGp98nz21wIw _YTlVcAZwEeaGp98nz21wIw">
-    <ownedEnd xmi:type="uml:Property" xmi:id="_YTnKoQZwEeaGp98nz21wIw" name="token" type="_DW0ZsAZGEeaGp98nz21wIw" aggregation="composite" association="_YTnKoAZwEeaGp98nz21wIw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YTnKoQZwEeaGp98nz21wIw" name="token" type="_DW0ZsAZGEeaGp98nz21wIw" association="_YTnKoAZwEeaGp98nz21wIw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YTnKogZwEeaGp98nz21wIw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YTnKowZwEeaGp98nz21wIw" value="1"/>
     </ownedEnd>
@@ -616,4 +616,11 @@
   <packagedElement xmi:type="uml:DataType" xmi:id="_fzpHIAcsEeaJu_u8xj-aPQ" name="Array"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_GsIasActEeaJu_u8xj-aPQ" name="" client="_B9JRAAZGEeaGp98nz21wIw" supplier="_W2VDUAcrEeaJu_u8xj-aPQ"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_K9OnAAcuEeaJu_u8xj-aPQ" name="SpeechRecognition"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sVHRwAxdEead5cSfxhIngQ" memberEnd="_sVIf4AxdEead5cSfxhIngQ _sVIf4QxdEead5cSfxhIngQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sVH40AxdEead5cSfxhIngQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sVH40QxdEead5cSfxhIngQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sVIf4QxdEead5cSfxhIngQ" name="client" type="_8EFy8AZFEeaGp98nz21wIw" association="_sVHRwAxdEead5cSfxhIngQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sVIf4AxdEead5cSfxhIngQ" name="keyword" type="_ELh0IAZGEeaGp98nz21wIw" association="_sVHRwAxdEead5cSfxhIngQ"/>
+  </packagedElement>
 </uml:Model>
