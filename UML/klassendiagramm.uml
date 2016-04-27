@@ -665,4 +665,92 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Realization" xmi:id="_vN25IAxgEead5cSfxhIngQ" client="_4Y23UAZFEeaGp98nz21wIw" supplier="_iMYm4AxgEead5cSfxhIngQ"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_wPII4AxgEead5cSfxhIngQ" client="_8EFy8AZFEeaGp98nz21wIw" supplier="_iMYm4AxgEead5cSfxhIngQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pZB-UAxhEead5cSfxhIngQ" name="Document">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pZB-UQxhEead5cSfxhIngQ" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pZB-UgxhEead5cSfxhIngQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pZB-UwxhEead5cSfxhIngQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_pZB-VAxhEead5cSfxhIngQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pZB-VQxhEead5cSfxhIngQ" name="documentName" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pZB-VgxhEead5cSfxhIngQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pZB-VwxhEead5cSfxhIngQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_pZB-WAxhEead5cSfxhIngQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pZB-WQxhEead5cSfxhIngQ" name="documentType" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pZB-WgxhEead5cSfxhIngQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pZB-WwxhEead5cSfxhIngQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_pZB-XAxhEead5cSfxhIngQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pZB-XQxhEead5cSfxhIngQ" name="documentPath" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pZB-XgxhEead5cSfxhIngQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pZB-XwxhEead5cSfxhIngQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_pZB-YAxhEead5cSfxhIngQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2O4PYAxhEead5cSfxhIngQ" name="setId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6rY28AxhEead5cSfxhIngQ" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_EheLQAxiEead5cSfxhIngQ" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_GU5QsAxiEead5cSfxhIngQ" name="getId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_I4mjkAxiEead5cSfxhIngQ" name="id" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OPXM4AxiEead5cSfxhIngQ" name="setDocumentName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_TABfgAxiEead5cSfxhIngQ" name="documentName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Vvsx0AxiEead5cSfxhIngQ" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YtOS4AxiEead5cSfxhIngQ" name="getDocumentName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_b2BP0AxiEead5cSfxhIngQ" name="String" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nez34AxiEead5cSfxhIngQ" name="setDocumentType">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_wAMDEAxiEead5cSfxhIngQ" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_y1eOIAxiEead5cSfxhIngQ" name="documentType">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1IKpgAxiEead5cSfxhIngQ" name="getDocumentType">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_52CG0AxiEead5cSfxhIngQ" name="String" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7P2ZcAxiEead5cSfxhIngQ" name="setDocumentPath">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__HdkMAxiEead5cSfxhIngQ" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BU6TMAxjEead5cSfxhIngQ" name="documentPath">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FkmmwAxjEead5cSfxhIngQ" name="getDocumentPath">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ilj2UAxjEead5cSfxhIngQ" name="String" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xJ8V4AxhEead5cSfxhIngQ" memberEnd="_xJ9kAQxhEead5cSfxhIngQ _xJ-LEAxhEead5cSfxhIngQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xJ888AxhEead5cSfxhIngQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xJ9kAAxhEead5cSfxhIngQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xJ-LEAxhEead5cSfxhIngQ" name="resultlist" type="_B-ITAAZHEeaGp98nz21wIw" association="_xJ8V4AxhEead5cSfxhIngQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xJ9kAQxhEead5cSfxhIngQ" name="document" type="_pZB-UAxhEead5cSfxhIngQ" association="_xJ8V4AxhEead5cSfxhIngQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z_aHIAxhEead5cSfxhIngQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z_b8UAxhEead5cSfxhIngQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
