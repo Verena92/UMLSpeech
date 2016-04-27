@@ -172,7 +172,7 @@
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_B9JRAAZGEeaGp98nz21wIw" name="WebSpeech">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Xb6x0AZpEeaGp98nz21wIw" name="results" visibility="private" type="_sLYRAAZJEeaGp98nz21wIw">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Xb6x0AZpEeaGp98nz21wIw" name="sttResults" visibility="private" type="_sLYRAAZJEeaGp98nz21wIw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Xz6bEAZpEeaGp98nz21wIw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Xz6bEQZpEeaGp98nz21wIw" value="1"/>
       <defaultValue xmi:type="uml:LiteralString" xmi:id="_Xz7CIAZpEeaGp98nz21wIw">
@@ -245,6 +245,46 @@
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_DNsFQAcqEeaJu_u8xj-aPQ" name="webkitSpeechRecognition">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_LhzQgAcqEeaJu_u8xj-aPQ" name="" type="_sLYRAAZJEeaGp98nz21wIw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_T4FMEAxmEead5cSfxhIngQ" name="setContinuous">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XOPPkAxmEead5cSfxhIngQ" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZrMaMAxmEead5cSfxhIngQ" name="continuous">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hKT3IAxmEead5cSfxhIngQ" name="setContinuous">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kyCLwAxmEead5cSfxhIngQ" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_nBRqgAxmEead5cSfxhIngQ" name="continuous">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_o-EuYAxmEead5cSfxhIngQ" name="setRecognizing">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ruNTsAxmEead5cSfxhIngQ" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_twrhwAxmEead5cSfxhIngQ" name="recognizing">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_w0lXoAxmEead5cSfxhIngQ" name="setCreatedAt">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_0uUpUAxmEead5cSfxhIngQ" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7IIrEAxmEead5cSfxhIngQ" name="createdAd">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#Date"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8Rs7MAxmEead5cSfxhIngQ" name="getCreatedAt">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_AAwm4AxnEead5cSfxhIngQ" name="date" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#Date"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ch-mcAxnEead5cSfxhIngQ" name="setCreatedBy">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_F93egAxnEead5cSfxhIngQ" name="void" type="_Joc3YAZoEeaGp98nz21wIw" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_LzQkkAxnEead5cSfxhIngQ" name="createdBy">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MipaIAxnEead5cSfxhIngQ" name="getCreatedBy">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PObq8AxnEead5cSfxhIngQ" name="String" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_DW0ZsAZGEeaGp98nz21wIw" name="Token">
@@ -518,13 +558,6 @@
         <value xsi:nil="true"/>
       </defaultValue>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_--pKkAcsEeaJu_u8xj-aPQ" name="results" visibility="private" type="_sLYRAAZJEeaGp98nz21wIw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__gRQ8AcsEeaJu_u8xj-aPQ" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__gRQ8QcsEeaJu_u8xj-aPQ" value="1"/>
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="__gR4AAcsEeaJu_u8xj-aPQ">
-        <value xsi:nil="true"/>
-      </defaultValue>
-    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_g-BsEAcrEeaJu_u8xj-aPQ" name="webkitSpeechRecognition">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_msBwsAcrEeaJu_u8xj-aPQ" name="JSON" type="_sLYRAAZJEeaGp98nz21wIw" direction="return"/>
     </ownedOperation>
@@ -546,6 +579,7 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_sJGn8AcsEeaJu_u8xj-aPQ" name="onResult">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_u0CkMAcsEeaJu_u8xj-aPQ" name="JSON" type="_sLYRAAZJEeaGp98nz21wIw" direction="return"/>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UDau0AxlEead5cSfxhIngQ" name="blalba"/>
   </packagedElement>
   <packagedElement xmi:type="uml:DataType" xmi:id="_fzpHIAcsEeaJu_u8xj-aPQ" name="Array"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_GsIasActEeaJu_u8xj-aPQ" name="" client="_B9JRAAZGEeaGp98nz21wIw" supplier="_W2VDUAcrEeaJu_u8xj-aPQ"/>
@@ -686,6 +720,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3Bge0AxkEead5cSfxhIngQ" name="getDocumentFromEvent"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_xJ8V4AxhEead5cSfxhIngQ" memberEnd="_xJ9kAQxhEead5cSfxhIngQ _xJ-LEAxhEead5cSfxhIngQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xJ888AxhEead5cSfxhIngQ" source="org.eclipse.papyrus">
