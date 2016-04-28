@@ -80,6 +80,20 @@
         <element xmi:type="uml:Operation" href="klassendiagramm.uml#_Cpp-8AxrEead5cSfxhIngQ"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_CqMKcAxrEead5cSfxhIngQ"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_P1hAYA0oEeaLvMFmSMId8A" type="3013">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TonekA0oEeaLvMFmSMId8A" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TooFoA0oEeaLvMFmSMId8A" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <styles xmi:type="notation:StringListValueStyle" xmi:id="_UH40gA0oEeaLvMFmSMId8A" name="maskLabel">
+          <stringListValue>parametersName</stringListValue>
+          <stringListValue>visibility</stringListValue>
+          <stringListValue>name</stringListValue>
+          <stringListValue>parametersType</stringListValue>
+          <stringListValue>returnType</stringListValue>
+        </styles>
+        <element xmi:type="uml:Operation" href="klassendiagramm.uml#_PsLeMA0oEeaLvMFmSMId8A"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_P1hncA0oEeaLvMFmSMId8A"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_4ZfwhwZFEeaGp98nz21wIw"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_4ZfwiAZFEeaGp98nz21wIw"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_4ZfwiQZFEeaGp98nz21wIw"/>
