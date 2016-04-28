@@ -151,6 +151,19 @@
       <element xmi:type="uml:Actor" href="model3.uml#_RwA9YAYFEeaomtKEjp37Nw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RwEnwQYFEeaomtKEjp37Nw" x="960" y="365"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_aItSAA0pEeaJXJMsGKO6fA" type="2011">
+      <children xmi:type="notation:DecorationNode" xmi:id="_aItSAg0pEeaJXJMsGKO6fA" type="5014">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aItSAw0pEeaJXJMsGKO6fA" x="35" y="64"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_aIt5EA0pEeaJXJMsGKO6fA" type="6029">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aIt5EQ0pEeaJXJMsGKO6fA" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_aIt5Eg0pEeaJXJMsGKO6fA" type="6037">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aIt5Ew0pEeaJXJMsGKO6fA" x="20" y="80"/>
+      </children>
+      <element xmi:type="uml:Actor" href="model3.uml#_aH7O4A0pEeaJXJMsGKO6fA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aItSAQ0pEeaJXJMsGKO6fA" x="554" y="-43"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Od5e8QIsEeaUxsU5qkIFfA"/>
     <element xmi:type="uml:Model" href="model3.uml#_Od434AIsEeaUxsU5qkIFfA"/>
     <edges xmi:type="notation:Edge" xmi:id="_j76ikAYEEeaomtKEjp37Nw" type="4008" source="_XTK5YAYEEeaomtKEjp37Nw" target="_guQ60AYEEeaomtKEjp37Nw">
@@ -251,6 +264,31 @@
       <element xmi:type="uml:Association" href="model3.uml#_ageGYAYFEeaomtKEjp37Nw"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_agf7kgYFEeaomtKEjp37Nw" points="[-40, 8, 125, 0]$[-148, 8, 17, 0]"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agkNAAYFEeaomtKEjp37Nw" id="(0.9317269076305221,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_efUF4A0pEeaJXJMsGKO6fA" type="4011" source="_guQ60AYEEeaomtKEjp37Nw" target="_aItSAA0pEeaJXJMsGKO6fA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_efUF4w0pEeaJXJMsGKO6fA" type="6008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_efUF5A0pEeaJXJMsGKO6fA" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_efUs8A0pEeaJXJMsGKO6fA" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_efUs8Q0pEeaJXJMsGKO6fA" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_efUF4Q0pEeaJXJMsGKO6fA"/>
+      <element xmi:type="uml:Association" href="model3.uml#_efN_QA0pEeaJXJMsGKO6fA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_efUF4g0pEeaJXJMsGKO6fA" points="[12, 29, -115, -280]$[126, 295, -1, -14]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lQgF0A0pEeaJXJMsGKO6fA" id="(0.9727891156462585,0.38333333333333336)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_efbaoA0pEeaJXJMsGKO6fA" id="(0.4875,0.23333333333333334)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_fWlFEA0pEeaJXJMsGKO6fA" type="4011" source="_nIelMAYEEeaomtKEjp37Nw" target="_aItSAA0pEeaJXJMsGKO6fA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_fWlFEw0pEeaJXJMsGKO6fA" type="6008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fWlFFA0pEeaJXJMsGKO6fA" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_fWlsIA0pEeaJXJMsGKO6fA" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fWlsIQ0pEeaJXJMsGKO6fA" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_fWlFEQ0pEeaJXJMsGKO6fA"/>
+      <element xmi:type="uml:Association" href="model3.uml#_fWjP4A0pEeaJXJMsGKO6fA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fWlFEg0pEeaJXJMsGKO6fA" points="[14, -30, -147, 320]$[147, -320, -14, 30]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kek5oA0pEeaJXJMsGKO6fA" id="(0.752112676056338,0.05)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_omsMwAIsEeaUxsU5qkIFfA" type="UseCase" measurementUnit="Pixel">

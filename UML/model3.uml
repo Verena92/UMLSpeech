@@ -70,6 +70,26 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_U-RCEAYFEeaomtKEjp37Nw" name="Inhalte für Ergebnisliste zurückgeben"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_efN_QA0pEeaJXJMsGKO6fA" name="" memberEnd="_efN_QQ0pEeaJXJMsGKO6fA _efN_RA0pEeaJXJMsGKO6fA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_efN_QQ0pEeaJXJMsGKO6fA" name="tokens bereitstellen" type="_guN3gAYEEeaomtKEjp37Nw" association="_efN_QA0pEeaJXJMsGKO6fA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_efN_Qg0pEeaJXJMsGKO6fA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_efN_Qw0pEeaJXJMsGKO6fA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_efN_RA0pEeaJXJMsGKO6fA" name="hangouts plugin" type="_aH7O4A0pEeaJXJMsGKO6fA" association="_efN_QA0pEeaJXJMsGKO6fA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_efN_RQ0pEeaJXJMsGKO6fA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_efN_Rg0pEeaJXJMsGKO6fA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_fWjP4A0pEeaJXJMsGKO6fA" name="" memberEnd="_fWjP4Q0pEeaJXJMsGKO6fA _fWjP5A0pEeaJXJMsGKO6fA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_fWjP4Q0pEeaJXJMsGKO6fA" name="ergebnisliste mit dokumentenvorschlägen bereitstellen" type="_nIbh4AYEEeaomtKEjp37Nw" association="_fWjP4A0pEeaJXJMsGKO6fA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fWjP4g0pEeaJXJMsGKO6fA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fWjP4w0pEeaJXJMsGKO6fA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_fWjP5A0pEeaJXJMsGKO6fA" name="hangouts plugin" type="_aH7O4A0pEeaJXJMsGKO6fA" association="_fWjP4A0pEeaJXJMsGKO6fA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fWjP5Q0pEeaJXJMsGKO6fA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fWjP5g0pEeaJXJMsGKO6fA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_0U4x4AIvEeaUxsU5qkIFfA" name="Event Processor"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_1MiLkAIvEeaUxsU5qkIFfA" name="SpeechTokenizer">
@@ -235,4 +255,5 @@
     <node xmi:type="uml:OpaqueAction" xmi:id="_0-GTYAYTEeaomtKEjp37Nw" name="Audiostream versenden" inPartition="_RaFL0AYUEeaomtKEjp37Nw" outgoing="_6N4yAAYTEeaomtKEjp37Nw" incoming="_4yRIkAYTEeaomtKEjp37Nw"/>
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_OmN9EAYUEeaomtKEjp37Nw" name="ActivityFinalNode6" inPartition="_RaFL0AYUEeaomtKEjp37Nw" incoming="_PkPrkAYUEeaomtKEjp37Nw"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_aH7O4A0pEeaJXJMsGKO6fA" name="Hangouts Plugin"/>
 </uml:Model>
